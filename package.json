@@ -1,0 +1,20 @@
+{
+  "name": "practice1-new2-real-time-chat-app",
+  "version": "1.0.0",
+  "description": "Username and chat room",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Daniel Kamasi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
